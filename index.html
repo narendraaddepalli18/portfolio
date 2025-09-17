@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addepalli Narendra Kumar | Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    /* Header */
+    header {
+      border: 5px solid rgb(176, 18, 18);
+      background-color: #007ACC;
+      height: 100vh;
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      margin: 20px;
+      color: white;
+    }
+    header a button {
+      color: white;
+      background-color: blue;
+      height: 50px;
+      width: 150px;
+      border-radius: 100px;
+      cursor: pointer;
+      margin: 10px;
+      font-family: "Times New Roman", serif;
+      font-weight: bold;
+      border: none;
+    }
+    header a button:hover {
+      background-color: rgb(89, 76, 117);
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+
+    /* Main Section */
+    main {
+      background-color: #007ACC;
+      text-align: center;
+      color: white;
+      padding: 50px 20px;
+      margin-bottom: 40px;
+    }
+    img.profile {
+      height: 200px;
+      width: 200px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 3px solid white;
+    }
+    .intro {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #fff;
+      background: rgba(0,0,0,0.2);
+      padding: 16px;
+      border-radius: 8px;
+    }
+
+    /* Sections */
+    section {
+      background: white;
+      padding: 40px 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #007ACC;
+    }
+
+    /* Skills Table */
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      color: black;
+    }
+    th {
+      background-color: lightblue;
+    }
+
+    /* Projects */
+    .project {
+      margin: 15px 0;
+      padding: 10px;
+      border-left: 4px solid #007ACC;
+      background: #f9f9f9;
+    }
+    .project a {
+      color: #007ACC;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Form */
+    form input, form textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #007ACC;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form button:hover {
+      background: #005fa3;
+    }
+
+    /* Back to top */
+    .top-btn {
+      background-color: #007ACC;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+      border-radius: 50%;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      margin: 5px;
+      display: inline-block;
+    }
+    footer button {
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .link { background-color: #007ACC; color: white; }
+    .inst { background-color: rgb(224, 66, 66); color: white; }
+    .git { background-color: black; color: white; }
+    footer button:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+    .form button{
+text-align:center;
+    }
+  </style>
+</head>
+<body id="top">
+
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <a href="#about"><button>About</button></a>
+    <a href="#skills"><button>Skills</button></a>
+    <a href="#projects"><button>Projects</button></a>
+    <a href="#education"><button>Education</button></a>
+    <a href="#certificates"><button>Certificates</button></a>
+    <a href="#contact"><button>Contact</button></a>
+  </header>
+
+  <!-- Main -->
+  <main id="about">
+    <h1>Welcome to My Portfolio</h1>
+    <img src="narendra.jpg" alt="My Photo" class="profile">
+    <p class="intro">
+      Hello — I’m <strong>Addepalli Narendra Kumar</strong>. I am currently a 3rd-year B.Tech student in Computer Science & Engineering. 
+      I’ve learned HTML, CSS, Java, JavaScript, and SQL, and I enjoy building clean, responsive web pages and solving problems with code. 
+      I’m actively working on projects to strengthen my front-end and back-end skills and I’m excited to learn more technologies as I grow.
+    </p>
+  </main>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h1>Skills</h1>
+    <table>
+      <tr>
+        <th>Programming Languages</th>
+        <th>FrontEnd</th>
+        <th>BackEnd</th>
+        <th>Scripting</th>
+        <th>Database</th>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>HTML</td>
+        <td>Java</td>
+        <td>JavaScript</td>
+        <td>MySQL</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>CSS</td>
+        <td>React</td>
+        <td>—</td>
+        <td>SQL</td>
+      </tr>
+    </table> 
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/YOUR_ID/portfolio" target="_blank">View Code</a>
+    </div>
+    <div class="project">
+      <h3>Student Management System</h3>
+      <p>Built using Java and MySQL to manage student records efficiently.</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h1>Education</h1>
+    <ul>
+      <li><strong>B.Tech (CSE)</strong>,Chaitanya Engineering College 2023–2027</li>
+      <li><strong>Intermediate</strong>,Vidwan junior College 2021–2023</li>
+      <li><strong>SSC</strong>, A.P Model School 2020–2021</li>
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates">
+    <h1>Certificates</h1>
+    <ul>
+      <li>Java Certificate – Infosys Springboard</li>
+      <li>Web Development Course – NPTEL</li>
+    
+    </ul>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea placeholder="Your Message"></textarea><br>
+      <button class="but" type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#top"><button class="top-btn">↑</button></a>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 narendrakumaraddepalli18@gmail.com</p>
+    <a href="https://www.linkedin.com/in/addepalli-narendra-kumar-ba401229a/" target="_blank"><button class="link">LinkedIn</button></a>
+    <a href="https://www.instagram.com/this_is_narendra__/" target="_blank"><button class="inst">Instagram</button></a>
+    <a href="https://github.com/narendraaddepalli18" target="_blank"><button class="git">GitHub</button></a>
+  </footer>
+
+</body>
+</html>
